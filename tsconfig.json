@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "types": ["bun"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+    "paths": {
+      "@app": ["./src/app"],
+      "@config/*": ["./src/config/*"],
+      "@controllers/*": ["./src/controllers/*"],
+      "@services/*": ["./src/services/*"],
+      "@schemas/*": ["./src/schemas/*"],
+      "@core/*": ["./src/core/*"],
+      "@db/*": ["./src/db/*"],
+      "@constants/*": ["./src/constants/*"],
+      "@integrations/*": ["./src/integrations/*"],
+      "@utils/*": ["./src/utils/*"]
+    }
+  }
+}
