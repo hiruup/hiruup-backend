@@ -56,7 +56,7 @@ describe("ApiClient / apiCaller", () => {
     const client = createApiClient({
       headers: {
         Authorization: "Bearer default-token",
-        "X-App": "PoluBackend",
+        "X-App": "HiruupBackend",
       },
     });
 
@@ -67,7 +67,7 @@ describe("ApiClient / apiCaller", () => {
     });
 
     expect(capturedHeaders?.get("authorization")).toBe("Bearer default-token");
-    expect(capturedHeaders?.get("x-app")).toBe("PoluBackend");
+    expect(capturedHeaders?.get("x-app")).toBe("HiruupBackend");
     expect(capturedHeaders?.get("x-custom")).toBe("CustomValue");
   });
 

@@ -1,6 +1,6 @@
 # Air Quality Assistant (`air-quality`)
 
-An intelligent air quality service that provides real-time AQI and actionable health advice (e.g., whether to wear a mask) for any city. Designed as an independent REST API service for client applications and the dedicated Polu MCP server.
+An intelligent air quality service that provides real-time AQI and actionable health advice (e.g., whether to wear a mask) for any city. Designed as an independent REST API service for client applications and the dedicated Hiruup MCP server.
 
 ## Features
 - **City Geocoding**: Powered by OpenStreetMap Nominatim with strict 1 req/sec rate throttling.

@@ -66,7 +66,7 @@ app.get(
       info: {
         title: "Air Quality API",
         version: "0.2.0",
-        description: "Polu Air Quality Assistant API",
+        description: "Hiruup Air Quality Assistant API",
       },
       servers: [
         {
