@@ -47,7 +47,6 @@ app.get(`${API_V1_URL}${HEALTH_URL}`, (c) =>
 app.get(API_V1_URL, (c) => c.json({ message: "Service is running" }));
 
 // Mount Air Quality controllers
-app.route(V1_URL, airQualityController);
 app.route(API_V1_URL, airQualityController);
 
 // Documentation routes
