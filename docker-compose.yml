@@ -5,8 +5,7 @@ services:
       dockerfile: Dockerfile
     container_name: hiruup-backend
     restart: unless-stopped
-    ports:
-      - "${BACKEND_PORT:-3001}:3001"
+    network_mode: host
     env_file:
       - .env
     environment:
